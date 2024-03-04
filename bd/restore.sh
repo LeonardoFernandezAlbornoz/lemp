@@ -1,0 +1,1 @@
+docker compose exec basedatos bash -c "mysql -u user -p bd < backup.sql"
