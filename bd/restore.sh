@@ -1,1 +1,1 @@
-docker compose exec basedatos bash -c "mysql -u user -p bd < backup.sql"
+docker exec basedatos bash -c "mysq -u user -p bd < bd/backup.sql" 

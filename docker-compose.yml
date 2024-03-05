@@ -8,7 +8,7 @@ services:
     volumes:
       - ./app:/app
       - ./nginx/a22leonardofa.giize.com.conf:/etc/nginx/conf.d/a22leonardofa.giize.com.conf
-      - ./nginx/certificados:/certificados
+      - ./nginx/certificados/:/certificados/
     env_file:
       - .env
   basedatos:
@@ -19,7 +19,6 @@ services:
       - datos:/var/lib/mysql
     env_file:
       - .env_bd
-
   meuphp:
     build: php
     volumes:
