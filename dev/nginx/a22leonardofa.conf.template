@@ -3,8 +3,8 @@ server {
     listen 443 ssl;
     server_name  ${SERVER_NAME};
 
-    ssl_certificate_key /certificados/${KEY_FILE};
-    ssl_certificate /certificados/${CERT_FILE};
+    ssl_certificate_key /certificados/daw2324.casacam.net.lan.key;
+    ssl_certificate /certificados/daw2324.casacam.net.lan.pem;
     ssl_protocols TLSv1.2;
     ssl_ciphers HIGH:!aNULL:!MD5;
  
