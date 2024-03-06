@@ -13,6 +13,7 @@ server {
     root /app;
     index index.php index.html index.htm;
     location / {
+        autoindex on;
         try_files $uri $uri/ /index.php?$query_string;
     }
 
