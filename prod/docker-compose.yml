@@ -7,7 +7,7 @@ services:
       - 443:443
     volumes:
       - ./app:/app
-      - ./nginx/a22leonardofa.conf.template:/etc/nginx/templates/a22leonardofa.giize.conf.template
+      - ./nginx/daw2324.casacam.net.conf.template:/etc/nginx/templates/daw2324.casacam.net.conf.template
       - ./nginx/certificados/:/certificados/
     env_file:
       - .env
