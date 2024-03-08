@@ -1,1 +1,0 @@
-docker compose exec basedatos bash -c 'mysqldump --no-tablespaces -u $MYSQL_USER -p$MYSQL_PASSWORD  bd' > bd/backup.sql
