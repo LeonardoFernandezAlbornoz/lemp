@@ -16,12 +16,5 @@ services:
     volumes:
       - ./app:/app
       - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
-
-  phpmyadmin:
-    image: phpmyadmin
-    ports:
-      - 8080:80
-    env_file:
-      - .env_pma
 volumes:
   datos:
