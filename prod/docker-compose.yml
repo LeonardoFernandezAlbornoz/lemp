@@ -16,5 +16,6 @@ services:
     volumes:
       - ./app:/app
       - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
+      - ./php/php.ini:/etc/php/8.2/fpm/php.ini
 volumes:
   datos:

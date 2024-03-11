@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-06 09:21:51
+/* Smarty version 4.3.4, created on 2024-03-11 10:52:42
   from 'module:ps_customtextps_customtext.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65e8279f01c760_68372868',
+  'unifunc' => 'content_65eed46ab83d84_70854758',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65e8279f01c760_68372868 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '10305890665e8279f01c0e3_08663046';
+function content_65eed46ab83d84_70854758 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '54170578865eed46ab835e8_79261259';
 ?>
 
 <div id="custom-text">

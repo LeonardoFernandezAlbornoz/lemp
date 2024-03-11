@@ -8,14 +8,15 @@ services:
     volumes:
       - ./app:/app
       - ./nginx/a22leonardofa.conf.template:/etc/nginx/templates/a22leonardofa.giize.conf.template
-      - ./nginx/certificados/:/certificados
+      - ./nginx/certificados:/certificados
     env_file:
       - .env
   basedatos:
     image: mysql:latest
     volumes:
-      - ./bd/backup/:/docker-entrypoint-initdb.d
+      - ./bd/backup:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
+      - ./bd/backup:/backup
     env_file:
       - .env_bd
   meuphp:

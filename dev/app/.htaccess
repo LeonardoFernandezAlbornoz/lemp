@@ -10,7 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: a22leonardofa.giize.com
+#Domain: www.a22leonardofa.giize.com
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule ^api(?:/(.*))?$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
 RewriteRule ^upload/.+$ %{ENV:REWRITEBASE}index.php [QSA,L]

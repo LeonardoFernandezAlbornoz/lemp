@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-06 09:21:55
+/* Smarty version 4.3.4, created on 2024-03-11 10:52:42
   from 'module:ps_imagesliderviewstemplateshookslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65e827a35069b9_79115487',
+  'unifunc' => 'content_65eed46ab5f0b7_99215917',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65e827a35069b9_79115487 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65eed46ab5f0b7_99215917 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
@@ -29,7 +29,7 @@ function content_65e827a35069b9_79115487 (Smarty_Internal_Template $_smarty_tpl)
     <ul class="carousel-inner" role="listbox" aria-label="Contenedor carrusel ">
               <li class="carousel-item active" role="option" aria-hidden="false">
           <a href="https://www.prestashop-project.org?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download">            <figure>
-              <img src="https://a22leonardofa.giize.com/modules/ps_imageslider/images/sample-1.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
+              <img src="https://www.a22leonardofa.giize.com/modules/ps_imageslider/images/sample-1.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Sample 1</h2>
                   <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
@@ -39,7 +39,7 @@ function content_65e827a35069b9_79115487 (Smarty_Internal_Template $_smarty_tpl)
           </a>        </li>
               <li class="carousel-item " role="option" aria-hidden="true">
           <a href="https://www.prestashop-project.org?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download">            <figure>
-              <img src="https://a22leonardofa.giize.com/modules/ps_imageslider/images/sample-2.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
+              <img src="https://www.a22leonardofa.giize.com/modules/ps_imageslider/images/sample-2.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Sample 2</h2>
                   <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
@@ -49,7 +49,7 @@ function content_65e827a35069b9_79115487 (Smarty_Internal_Template $_smarty_tpl)
           </a>        </li>
               <li class="carousel-item " role="option" aria-hidden="true">
           <a href="https://www.prestashop-project.org?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download">            <figure>
-              <img src="https://a22leonardofa.giize.com/modules/ps_imageslider/images/sample-3.jpg" alt="sample-3" loading="lazy" width="1110" height="340">
+              <img src="https://www.a22leonardofa.giize.com/modules/ps_imageslider/images/sample-3.jpg" alt="sample-3" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Sample 3</h2>
                   <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
