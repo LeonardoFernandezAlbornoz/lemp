@@ -7,19 +7,7 @@ server {
     ssl_certificate /certificados/${CERT_FILE};
     ssl_protocols TLSv1.2;
     ssl_ciphers HIGH:!aNULL:!MD5;
- 
-     send_timeout 1d;
-    client_body_timeout 1d;
-    client_header_timeout 1d;
-    proxy_connect_timeout 1d;
-    proxy_read_timeout 1d;
-    proxy_send_timeout 1d;
-    fastcgi_connect_timeout 1d;
-    fastcgi_read_timeout 1d;
-    fastcgi_send_timeout 1d;
-    memcached_connect_timeout 1d;
-    memcached_read_timeout 1d;
-    memcached_send_timeout 1d;
+
 
     #access_log  /var/log/nginx/host.access.log  main;
     root /app;
@@ -58,6 +46,3 @@ server {
 
 }
 
-http {
-
-}
